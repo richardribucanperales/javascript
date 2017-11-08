@@ -1,0 +1,24 @@
+*{
+	text-align:center;
+	font-family:arial;
+}
+#header{
+	font-size:50px;
+}
+#fahrenheit{
+  height: 850px;
+  width: 70px;
+  border: solid 3px black;
+  float:left;
+  padding: 100px;
+  border-radius: 12px 0px 0px 12px;
+
+}
+#celcius{
+  height: 850px;
+  width: 70px;
+  border: solid 3px black;
+  float:right;
+  padding: 100px;
+  border-radius: 0px 12px 12px 0px;
+}
