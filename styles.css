@@ -1,24 +1,65 @@
+@keyframes emoji{
+  100%{
+    transform:rotate(360deg);
+  }
+}@keyframes lit{
+  0%{
+    color:red;
+  }
+  20%{
+    color:blue;
+  }
+  40%{
+    color:yellow;
+  }
+  60%{
+    color:pink;
+  }
+  80%{
+    color:lime;
+  }
+  100%{
+    color:orange;
+  }
+}
 *{
-	text-align:center;
 	font-family:arial;
+}
+#header-desc{
+  font-size:20px;
+  text-align:center;
 }
 #header{
 	font-size:50px;
+  text-align:center;
 }
 #fahrenheit{
   height: 850px;
-  width: 70px;
+  width: 200px;
   border: solid 3px black;
   float:left;
-  padding: 100px;
-  border-radius: 12px 0px 0px 12px;
+  padding: 0px;
+  border-radius: 12px;
+  text-align:center;
 
 }
 #celcius{
   height: 850px;
-  width: 70px;
+  width: 200px;
   border: solid 3px black;
   float:right;
-  padding: 100px;
-  border-radius: 0px 12px 12px 0px;
+  padding: 0px;
+  border-radius: 12px;
+  text-align:center;
+}
+img{
+  width:100px;
+  height:100px;
+  animation: emoji .5s linear infinite normal;
+}
+#lit{
+  font-size:100px;
+  animation: emoji 1s linear infinite normal;
+  animation: lit .5s linear infinite normal;
+  text-align:center;
 }
